@@ -1,6 +1,4 @@
-export interface IPrimaryButton {
-    buttonText: string;
-}
+import { IPrimaryButton } from './PrimaryButton.types';
 
 const PrimaryButton: React.FC<IPrimaryButton> = ({ buttonText }) => {
     return <div>{buttonText}</div>;

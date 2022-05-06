@@ -1,7 +1,7 @@
 // import Head from 'next/head';
 // import Image from 'next/image';
 
-import { NextPageWithLayout } from './page';
+import { NextPageWithLayout } from '../common/types';
 
 import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
 import SidebarLayout from '../components/layouts/sidebar/SidebarLayout';
