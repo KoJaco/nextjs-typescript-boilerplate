@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# exclude environment variables
+.env
+
 # dependencies
 /node_modules
 /.pnp
@@ -35,10 +38,10 @@ yarn-error.log*
 *.tsbuildinfo
 
 # PWA
-**/public/sw.js
-**/public/workbox-*.js
-**/public/worker-*.js
-**/public/sw.js.map
-**/public/workbox-*.js.map
-**/public/worker-*.js.map
+**/src/public/sw.js
+**/src/public/workbox-*.js
+**/src/public/worker-*.js
+**/src/public/sw.js.map
+**/src/public/workbox-*.js.map
+**/src/public/worker-*.js.map
 
