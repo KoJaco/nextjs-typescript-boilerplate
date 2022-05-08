@@ -11,6 +11,10 @@
 # testing
 /coverage
 
+# planning
+/DEV.md
+/db-scaffold.vuerd.json
+
 # next.js
 /.next/
 /out/

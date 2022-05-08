@@ -5,8 +5,8 @@ module.exports = {
         './src/pages/**/*.{js,ts,jsx,tsx}',
         './src/components/**/*.{js,ts,jsx,tsx}',
     ],
-    prefix: 'tw-',
-    important: true,
+    // prefix: 'tw-',
+    // important: true,
     theme: {
         fontFamily: {
             heading: ['Inter', 'system-ui', 'sans-serif'],

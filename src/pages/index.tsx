@@ -8,8 +8,8 @@ import SidebarLayout from '../components/layouts/sidebar/SidebarLayout';
 
 const Home: NextPageWithLayout = () => {
     return (
-        <section className="bg-gradient-to-r from-cyan-500 to-blue-500">
-            <h1>
+        <section>
+            <h1 className="text-3xl">
                 Welcome to <a href="https://nextjs.org">Next.js</a>
             </h1>
         </section>
