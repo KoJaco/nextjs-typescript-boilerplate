@@ -4,7 +4,6 @@
 import { NextPageWithLayout } from '../common/types';
 
 import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
-import SidebarLayout from '../components/layouts/sidebar/SidebarLayout';
 
 const Home: NextPageWithLayout = () => {
     return (

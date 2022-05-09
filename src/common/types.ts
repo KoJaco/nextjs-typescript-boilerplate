@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import { ComponentType, ReactElement, ReactNode } from 'react';
 
+import { LinkProps } from 'next/link';
 import { IconType } from 'react-icons';
 
 // TYPES
@@ -14,7 +15,7 @@ export type NextPageWithLayout<P = {}> = NextPage<P> & {
 // INTERFACES
 export interface NavLink {
     id: number;
-    link: string;
+    link: LinkProps;
     isClicked?: boolean;
     title: string;
     icon: IconType;
