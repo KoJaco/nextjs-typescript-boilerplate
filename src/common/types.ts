@@ -1,9 +1,23 @@
 import { NextPage } from 'next';
 import { ComponentType, ReactElement, ReactNode } from 'react';
 
+import { IconType } from 'react-icons';
+
+// TYPES
 export type NextPageWithLayout<P = {}> = NextPage<P> & {
     // to be able to use NextPageWithLayout in place of NextPage when creating pages with
     // custom layouts
     getLayout?: (_page: ReactElement) => ReactNode;
     layout?: ComponentType;
 };
+
+// INTERFACES
+export interface NavLink {
+    id: number;
+    link: string;
+    isClicked?: boolean;
+    title: string;
+    icon: IconType;
+}
+
+// ENUMS
