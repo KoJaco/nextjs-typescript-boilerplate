@@ -1,3 +1,7 @@
+/* 
+    All types that are shared across more than one component or page should
+    reside in this file.
+*/
 import { NextPage } from 'next';
 import { ComponentType, ReactElement, ReactNode } from 'react';
 
