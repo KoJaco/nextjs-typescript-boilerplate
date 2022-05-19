@@ -1,5 +1,6 @@
 // jest.config.js
 const nextJest = require('next/jest');
+const { DefaultSerializer } = require('v8');
 
 const createJestConfig = nextJest({
     // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
@@ -12,6 +13,11 @@ const customJestConfig = {
     // setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
     // if using TypeScript with a baseUrl set to the root directory then you need the below for alias' to work
     moduleDirectories: ['node_modules', '<rootDir>/'],
+    moduleFileExtensions: [
+        ...DefaultSerializer.moduleFileExtensions,
+        'ts',
+        'tsx',
+    ],
     testEnvironment: 'jest-environment-jsdom',
 };
 
